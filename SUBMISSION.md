@@ -1,40 +1,36 @@
 # Walrus Session 4 Submission Draft
 
-Project name: Fan Memory War Room
-Team Leader Name: dungki @vikajoestar
+Project name: Memory Decay
+Team Leader Name: dungki
 Discord handle: pungki
-X account: dungki
+X account: @dungki
 Referral: @vikajoestar
 DeepSurge project Link: TBD after DeepSurge project creation
 Project Link: https://walrus-roast-agent.vercel.app
 Deployed agent: https://walrus-roast-agent.vercel.app
-GitHub: TBD after repo push
+GitHub: https://github.com/0xdungki/memory-decay
 SUI address: TBD
 MEMWAL_AGENT_ID: TBD from https://memory.walrus.xyz/dashboard delegate keys
 MemWalAccount explorer: TBD after mainnet account creation
 
-## Workflow and functionality
+## What it does
 
-Fan Memory War Room is a World Cup prediction agent that stores a user's match predictions, reasoning, and changing opinions across sessions. On day one it can only comment on the current prediction; after multiple entries it recalls the user's prior takes, identifies recurring bias, and produces a memory-based roast and prediction profile. The demo includes a 4-day seeded arc to make the before/after memory moment obvious, plus live inputs for new predictions.
+Memory Decay is an AI agent that simulates forgetting. Walrus stores every memory forever — this agent bridges the gap: save a memory, watch it fade over time (7-day half-life), and restore the original from Walrus with one click.
 
 ## What sets it apart
 
-Most prediction bots reset every chat. This one treats the tournament as an evolving memory graph: each prediction becomes a receipt, each receipt affects future feedback, and the UI exposes the agent's bias model through interactive day nodes, a vibes-vs-data meter, and remembered context cards. It is intentionally small and judge-friendly: the core Walrus Memory value is visible in seconds.
+Most memory apps show static data. This one makes memory itself the UX: text visibly corrupts, clarity meters decay, and refreshing proves Walrus kept the original pixel-perfect. The before/after moment is visible in seconds — no explanation needed.
 
 ## Walrus Memory usage
 
-The app is wired for MemWal via `@mysten-incubation/memwal`. When `MEMWAL_PRIVATE_KEY` and `MEMWAL_ACCOUNT_ID` are configured, predictions are stored through the hosted Walrus Memory relayer on mainnet under the `world-cup-roast-agent` namespace and recalled for the current user's prediction profile. Without credentials, it falls back to local demo mode so the UX remains inspectable.
+Wired for MemWal via `@mysten-incubation/memwal` SDK. When credentials are configured, predictions persist through the hosted Walrus Memory relayer on mainnet under the `memory-decay` namespace. Falls back to local demo mode so the UX remains inspectable without credentials.
 
 ## Feedback on Walrus Memory
 
-The SDK path is straightforward, but the dashboard-to-submission flow could be clearer. The hackathon asks for MEMWAL_AGENT_ID, MemWalAccount explorer link, and deployed mainnet proof; the dashboard should expose a one-click “copy submission fields” panel containing account ID, public delegate key / agent ID, explorer URL, and relayer endpoint.
+The SDK path is straightforward, but the dashboard-to-submission flow could be clearer. The hackathon asks for MEMWAL_AGENT_ID, MemWalAccount explorer link, and deployed mainnet proof; the dashboard should expose a one-click "copy submission fields" panel.
 
 Potential GitHub ticket: Add a dashboard submission helper that exports MEMWAL_AGENT_ID, MemWalAccount explorer URL, and sample env vars for hackathon projects.
 
 ## X tweet draft
 
-built a tiny World Cup memory agent for #Walrus
-
-it remembers your match predictions across sessions, detects if you are a vibes merchant or data goblin, then roasts the pattern back at you
-
-live demo: https://walrus-roast-agent.vercel.app
+See TWEET.txt

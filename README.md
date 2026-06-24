@@ -8,9 +8,11 @@ Walrus stores every memory forever. This agent shows what happens when humans fo
 
 The core demo is the before/after memory moment:
 
-- Day 1: a prediction is just a single take.
-- Day 4+: the agent recalls repeated behavior and changes its feedback.
-- With `MEMWAL_PRIVATE_KEY` and `MEMWAL_ACCOUNT_ID` set, memories are written through the hosted Walrus Memory relayer on mainnet.
+- Save a memory → it's fresh and clear
+- Come back days later → text fades and corrupts
+- Click **Refresh** → Walrus restores the original, pixel-perfect
+
+With `MEMWAL_PRIVATE_KEY` and `MEMWAL_ACCOUNT_ID` set, memories are written through the hosted Walrus Memory relayer on mainnet.
 
 ## Run locally
 
@@ -19,7 +21,7 @@ npm install
 npm run dev
 ```
 
-Open the local URL, add predictions, or click `Seed 4-day demo`.
+Open the local URL, save memories, or click `Seed demo` to see memories at different decay stages.
 
 ## Enable Walrus Memory mainnet
 
@@ -29,15 +31,13 @@ Set these env vars in Vercel or local shell:
 MEMWAL_PRIVATE_KEY=<delegate-private-key-from-memory-dashboard>
 MEMWAL_ACCOUNT_ID=<memwal-account-object-id>
 MEMWAL_SERVER_URL=https://relayer.memory.walrus.xyz
-MEMWAL_NAMESPACE=world-cup-roast-agent
+MEMWAL_NAMESPACE=memory-decay
 ```
 
 The app falls back to local demo mode when credentials are missing so judges can still inspect the UX.
 
-## Submission identity
+## Links
 
-- Project name: Fan Memory War Room
-- Team leader name: dungki @vikajoestar
-- X account: dungki
-- Discord: pungki
-- Referral: @vikajoestar
+- Live: https://walrus-roast-agent.vercel.app
+- Demo video: https://raw.githubusercontent.com/0xdungki/memory-decay/main/dist/demo-video.mp4
+- Repo: https://github.com/0xdungki/memory-decay
