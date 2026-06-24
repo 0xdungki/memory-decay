@@ -5,10 +5,11 @@ Team Leader Name: dungki
 Discord handle: pungki
 X account: @dungki
 Referral: @vikajoestar
-DeepSurge project Link: TBD after DeepSurge project creation
+DeepSurge project Link: https://www.deepsurge.xyz/projects/ddc722f9-6245-4a1e-8329-610aa3a47d67
 Project Link: https://walrus-roast-agent.vercel.app
 Deployed agent: https://walrus-roast-agent.vercel.app
 GitHub: https://github.com/0xdungki/memory-decay
+Tweet: https://x.com/dungki/status/2069819258952110212
 SUI address: TBD
 MEMWAL_AGENT_ID: TBD from https://memory.walrus.xyz/dashboard delegate keys
 MemWalAccount explorer: TBD after mainnet account creation
