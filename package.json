@@ -1,0 +1,19 @@
+{
+  "name": "walrus-roast-agent",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host 0.0.0.0",
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "node tests/agent.test.js"
+  },
+  "dependencies": {
+    "@mysten-incubation/memwal": "^0.0.7",
+    "@mysten/sui": "^2.20.0",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest",
+    "ws": "^8.21.0"
+  }
+}

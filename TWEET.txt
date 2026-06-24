@@ -1,0 +1,11 @@
+🧠 Memory Decay — an AI agent that simulates forgetting.
+
+Built for @WalrusProtocol Session 4.
+
+Walrus stores every memory forever. But humans forget.
+This agent bridges that gap: save a memory, watch it fade, one click restores it from Walrus.
+
+🦭 Mainnet live: walrus-roast-agent.vercel.app
+🔗 Built with MemWal SDK + Vercel
+
+#WalrusSession4 #Sui #AI
