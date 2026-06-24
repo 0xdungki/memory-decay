@@ -10,9 +10,9 @@ Project Link: https://walrus-roast-agent.vercel.app
 Deployed agent: https://walrus-roast-agent.vercel.app
 GitHub: https://github.com/0xdungki/memory-decay
 Tweet: https://x.com/dungki/status/2069819258952110212
-SUI address: TBD
-MEMWAL_AGENT_ID: TBD from https://memory.walrus.xyz/dashboard delegate keys
-MemWalAccount explorer: TBD after mainnet account creation
+SUI address: 0x7f69fa926eaca3d5330adf0472f4c80f797f378262a5c7069af573650e97e955
+MEMWAL_AGENT_ID: f3ffa5288f2b9b8e66fed7200992022df1a405f749d1b2dbe9cae46a84aae498
+MemWalAccount explorer: https://memory.walrus.xyz/dashboard/accounts/0x7f69fa926eaca3d5330adf0472f4c80f797f378262a5c7069af573650e97e955
 
 ## What it does
 
